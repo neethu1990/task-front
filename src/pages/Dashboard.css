@@ -1,0 +1,38 @@
+.container{
+    background-color: thistle;
+    height:auto;
+}
+.container h3{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    color:teal;
+    text-decoration: underline;
+}
+
+.input_holder{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-color: tomato;
+    border: 10px;
+    
+}
+input{
+    width: 200px;
+}
+
+
+input,button{
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+.list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
